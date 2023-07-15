@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  /* color:#000;
+    font-size: 16px;
+    line-height: 1.5; */
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+/* <------------------>
+<-------nav-------->
+<------------------> */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+nav > h1 {
+  font-size: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+
+  font-weight: bold;
+}
+li {
+  padding: 0 10px;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+nav .fa-solid{
+  display:none;
+  /* visibility: hidden; */
+}
+/* <------------------>
+<----service-section--->
+<------------------> */
+
+.services {
+  margin-top: 6rem;
+}
+.top-text,
+.top-text2,
+.btn {
+  margin-left: 10rem;
+}
+
+.top-text p {
+  color: #2d9cdb;
+
+  width: 40%;
+}
+
+.top-text h2,
+.top-text2 h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.top-text2 p {
+  color: #000;
+
+  width: 30%;
+  font-size: 0.9rem;
+  /* padding-right: 20px; */
+ font-weight: 100;
+
+}
+.btn {
+    margin-top: 2rem;
+}
+.btn p {
+    font-size: 0.7rem;
+}
+input[type="text"] {
+  width: 280px;
+  padding: 0.4rem;
+  background-color: #f2f2f2;
+  /* background-color: aqua; */
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.btn button {
+  background-color: #2d9cdb;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  
+  color: #fff;
+  position: absolute;
+  left: 500px;
+  /* top:10px; */
+}
+/* <------------------>
+<-------Domain-------->
+<------------------> */
+.domain{
+  margin-top: 4.9rem;
+  margin-bottom: 4.9rem;
+}
+.card{
+  display: flex;
+  /* margin:2px 5px; */
+  justify-content: space-between;
+  gap:2rem;
+  margin-top: 2rem;
+  /* padding: 13px; */
+}
+.cards{
+  /* background-color: aquamarine; */
+  width:20%;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+.fa-square-pen{
+  padding: 1.4rem 0;
+  color:rgb(45, 45, 218);
+  /* width:10%; */
+}
+.fa-laptop-code{
+  padding: 1.4rem 0;
+color:rgb(2, 92, 47);
+}
+.fa-server{
+  padding: 1.4rem 0;
+  color:rgb(235, 4, 4);
+}
+h4{
+  padding: 0.8rem 0 ;
+}
+.cards p{
+  font-size: 0.7rem;
+  padding-right: 1.5rem;
+  /* padding-top: 0.8rem; */
+  padding-bottom:0.8rem ;
+  padding-top: 0.8rem;
+  font-weight: 100;
+  /* background-color: aquamarine; */
+}
+.cards button{
+  padding: 0.4rem;
+  background-color: #f6f6f6;
+  /* background-color: aqua; */
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.cards:hover{
+  /* background-color:#f6f5f5 ; */
+  /* border: 5px solid #fff; */
+  border-radius: 16px;
+  /* width:25%; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.cards button:hover{
+  background-color: #2d9cdb;
+  color:#fff;
+}
+/* <------------------>
+<-------Business-------->
+<------------------> */
+.business{
+  font-weight: 500;
+}
+.puzzle{
+  display: flex;
+}
+.puzzle-1{
+  /* justify-content: space-between; */
+  /* align-items:space-between; */
+  margin-top: 6rem;
+}
+.puzzle-card{
+  margin:2rem 0 ;
+  line-height: 1;
+}
+.puzzle-card p{
+  padding-top: 5px;
+  font-size: .7rem;
+}
+.puzzle-card h4{
+  scroll-padding: -5px;
+}
+.link-right{
+  display: block;
+  float: right;
+  background-color: #2d9cdb;
+}
+/* <------------------>
+<-------Profile-------->
+<------------------> */
+.profile{
+  display: flex;
+  justify-content: space-between;
+  margin:6rem 0;
+}
+.left{
+  /* width:40%; */
+  margin:auto 0;
+  align-items: center;
+  justify-content: left;
+  /* background-color: #ec3e3e; */
+  padding:10px 30px 10px 0;
+}
+ 
+
+.red{
+  font-size: .9rem;
+  color:#ec3e3e;
+  /* font-weight: 500; */
+}
+.left h3{
+  
+  font-size: 1.9rem;
+  color: #434141;
+  
+}
+.light{
+  font-size: .7rem;
+  color: #706e6e; 
+}
+.right{
+  display: flex;
+  width:50%;
+  height: 60%;
+  /* background-color: #2d9cdb; */
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+.person1{
+  /* position:relative; */
+  margin:auto 0;
+}
+.right2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.right2 img{
+  margin:20px 0;
+}
+/* <------------------>
+<-------Team-------->
+<------------------> */
+.team{
+  width:65%;
+}
+.team h2{
+  color: #383737;
+}
+.last{
+  display: flex;
+  margin: 3rem 0;
+  /* justify-content: space-between; */
+}
+.content{
+  padding-left:15px ;
+}
+.content h3{
+  font-weight:bold; 
+}
+.content p{
+  color: #706e6e;
+  font-weight: 600;
+  font-size: .8rem;
+}
+/* <------------------>
+<-------Footer-------->
+<------------------> */
+footer{
+  width:100%;
+  background-color: #111225;
+  color:#f6f6f6;
+  padding:1rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.flist ul{
+  display: flex;
+  flex-direction: column;
+}
+.flist ul li{
+  padding:0.5rem 0;
+  font-weight: 200;
+}
+.logo{
+  display: flex;
+}
+.logo h1{
+  font-weight: 300;
+}
+.logo img{
+  /* width:100%; */
+  margin:0.2rem;
+  border-radius: 0;
+}
+.fbtn {
+  margin-top: 2rem;
+}
+.fbtn p {
+  font-size: 0.7rem;
+}
+input[type="text"] {
+width: 270px;
+padding: 0.6rem;
+background-color: #f2f2f2;
+/* background-color: aqua; */
+border: 1px solid #fff;
+border-radius: 5px;
+}
+
+.fbtn button {
+background-color: #2d9cdb;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 0.4rem 1rem;
+
+color: #fff;
+position: relative;
+/* left: 500px; */
+/* top:10px; */
+/* left:50px; */
+right:60px;
+}
+@media only screen and (max-width: 600px)  {
+nav .list{
+  display:none
+}
+nav .fa-solid{
+  display:block;
+ 
+}
+.top-text p {
+  color: #2d9cdb;
+  width: 100%;
+  padding-right: 0;
+}
+.top-text,
+.top-text2,
+.btn {
+  
+  margin: 0 auto;
+}
+.btn button {
+
+  position:relative;
+  left: -63px;
+ 
+  
+}
+.top-text2 p {
+ 
+
+  width: 90%;
+ 
+
+}
+.btn p{
+  margin-top:2rem ;
+}
+.card{
+  display: flex;
+ flex-direction: column;
+  justify-content: space-between;
+ 
+  /* padding: 13px; */
+}
+.cards{
+  /* background-color: aquamarine; */
+  width:100%;
+  text-align: left;
+ margin:auto;
+}
+/* .top-text p {
+  color: #2d9cdb;
+
+  width: 40%;
+} */
+
+
+.top-text h2,
+.top-text2 h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.cards p{
+  font-size: 0.9rem;
+  padding-right: 5rem;
+  
+}
+.puzzle{
+  display: flex;
+  flex-direction: column;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.left{
+  width:100%;
+}
+.left h3{
+  
+  font-size:35px;
+ 
+  
+}
+.left p{
+  font-size: 20px;
+}
+.right{
+  width:100%;
+  margin: auto;
+}
+.right2 img {
+  margin: 10px 0 5px 10px ;
+}
+.team {
+  width: 100%;
+}
+.team h2{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.last img{
+  width:18%;
+}
+.content {
+  padding-left: 25px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+flex-direction: left;;
+padding:1rem;
+justify-content: space-between;
+}
+.flogo{
+  padding:2rem 0
+}
+.fbtn button{
+  right: 70px;
+}
+}
