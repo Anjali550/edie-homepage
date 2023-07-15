@@ -398,8 +398,8 @@ nav .fa-solid{
   margin-bottom: 2rem;
 }
 .cards p{
-  font-size: 0.9rem;
-  padding-right: 5rem;
+  font-size: 1rem;
+  padding-right: .5rem;
   
 }
 .puzzle{
@@ -454,6 +454,19 @@ justify-content: space-between;
   padding:2rem 0
 }
 .fbtn button{
-  right: 70px;
+  right: 62px;
 }
+}
+@media only screen and (max-width: 383px)  {
+  .btn button {
+
+    position:relative;
+    /* left: -63px; */
+    left:210px;
+    bottom:33px;
+    /* top:0; */
+    /* right:0; */
+   
+    
+  }
 }
